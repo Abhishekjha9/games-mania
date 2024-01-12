@@ -112,6 +112,7 @@ header {
 #body-content{
     display: flex;
 }
+
 #all-categories{
     margin: 0 25px 0 25px;
 }
@@ -119,4 +120,17 @@ header {
    font-family: 'Roboto Condensed', serif;
    color: aliceblue;
    font-size: 18px;
+}
+#all-categories img{
+    height: 13%;
+    width: 13%;
+    margin-right: 10px;
+    background-color: #6666ff71;
+}
+#game-thumb-slider{
+    margin-top: 3%;
+    width: 100%;
+    height: 50%;
+    background-color: #6666ffaa;
+    text-align: center;
 }
