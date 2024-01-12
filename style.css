@@ -52,7 +52,7 @@ header {
     height: 100%;
 }
 #categories{
-    margin-left: 22rem;
+    margin-left: auto;
 }
 
 #categories a{
@@ -101,11 +101,22 @@ header {
     margin: 0;
     text-align: center;
 }
-#home-btn{
+#sidebar img{
     height: 2rem;
     width: 2rem;
     margin-top: 15px ;
 }
-#home-btn:hover{
+#sidebar img:hover{
     background-color: #2424521b;
+}
+#body-content{
+    display: flex;
+}
+#all-categories{
+    margin: 0 25px 0 25px;
+}
+#all-categories h2{
+   font-family: 'Roboto Condensed', serif;
+   color: aliceblue;
+   font-size: 18px;
 }
