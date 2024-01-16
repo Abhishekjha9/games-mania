@@ -98,7 +98,7 @@ header {
 }
 #sidebar{
     background-color: #6666ff;
-    height: 210vh;
+    height: 250vh;
     width: 3%;
     margin: 0;
     text-align: center;
@@ -134,7 +134,7 @@ header {
    height: 500px;
    border-radius: 10px;
    overflow: hidden;
-   margin-left: auto;
+   margin-left: 17rem;
    margin-right: auto;
  }
  
@@ -237,6 +237,46 @@ header {
 .gm{
   display: none;
 }
+#tg-text{
+ font-family: 'lemon', serif;
+ color: #6666ff;
+ text-align: center;
+}
+#tg-text:hover{
+    color: aliceblue;
+}
+#top-games, #multiplayer, #vs-computer{
+    text-align: center;
+}
+#top-games img{
+    height: 200px;
+    width: 350px;
+    margin-left: 10px;
+    background-color: #6666ff71;
+    border-radius: 25px;
+    border: 1px solid brown;
+}
+#multiplayer img{
+    height: 200px;
+    width: 350px;
+    margin-left: 10px;
+    background-color: #6666ff71;
+    border-radius: 25px;
+    border: 1px solid brown;
+}
+#vs-computer img{
+    height: 200px;
+    width: 350px;
+    margin-left: 10px;
+    background-color: #6666ff71;
+    border-radius: 25px;
+    border: 1px solid brown;
+}
+#msg{
+    text-align: center;
+    font-family: 'Roboto Condensed', serif;
+    color: #6666ff;
+}
 
 @media screen and (max-width: 600px){
 #all-categories img{
@@ -244,6 +284,30 @@ header {
   width: 150px;
   margin: 5px;
   background-color: #14141671;
+}
+#top-games img{
+        height: 100px;
+        width: 150px;
+        margin: 5px;
+        background-color: #14141671;
+        border-radius: 25px;
+        border: 1px solid brown;
+}
+#multiplayer img{
+    height: 100px;
+    width: 150px;
+    margin: 5px;
+    background-color: #14141671;
+    border-radius: 25px;
+    border: 1px solid brown;
+}
+#vs-computer img{
+    height: 100px;
+    width: 150px;
+    margin: 5px;
+    background-color: #14141671;
+    border-radius: 25px;
+    border: 1px solid brown;
 }
 .slider{
  display: none;
@@ -272,4 +336,4 @@ header {
   display: flex;
   margin-right: 20px;
 }
-} 
+}
