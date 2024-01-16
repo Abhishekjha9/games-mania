@@ -134,7 +134,7 @@ header {
    height: 500px;
    border-radius: 10px;
    overflow: hidden;
-   margin-left: 17rem;
+   margin-left: auto;
    margin-right: auto;
  }
  
@@ -239,18 +239,6 @@ header {
 }
 
 @media screen and (max-width: 600px){
-  #sidebar{
-    background-color: #6666ff;
-    height: 100vh;
-    width: 3%;
-    margin: 0;
-    text-align: center;
-}
-#sidebar img{
-    height: 1rem;
-    width: 1rem;
-    margin-top: 15px ;
-}
 #all-categories img{
   height: 100px;
   width: 150px;
